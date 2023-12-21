@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+  "fmt"
+  "helloworld/math"
+)
 
 func main() {
-
-	fmt.Printf("Hello world");
+	result := math.SumX(1)
+	fmt.Printf("%v", result);
 
 }
